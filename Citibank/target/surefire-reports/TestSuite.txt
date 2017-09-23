@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 107.855 sec <<< FAILURE! - in TestSuite
+clickButtonByCSS(Homepage.TestCreditCards)  Time elapsed: 10.086 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .cA-cardsLoginSubmit.cA-DD-singon-buttom
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'samis-MacBook-Pro.local', ip: 'fe80:0:0:0:1c0d:53b0:ca5d:9f39%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/1q/mcsr0m2x28d4ffr1ql92pmpc0000gn/T/rust_mozprofile.3tqbxa12cpRc, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=MAC, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=16.7.0, moz:processID=1200, browserName=firefox, javascriptEnabled=true, platformName=MAC}]
+Session ID: ea3c0be6-7c5c-9a46-ae8c-a8477d3c5200
+*** Element info: {Using=css selector, value=.cA-cardsLoginSubmit.cA-DD-singon-buttom}
+	at Homepage.TestCreditCards.clickButtonByCSS(TestCreditCards.java:22)
+
+clickButtonByXpath(Homepage.TestCreditCards)  Time elapsed: 10.028 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .cA-DD-browseCards
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'samis-MacBook-Pro.local', ip: 'fe80:0:0:0:1c0d:53b0:ca5d:9f39%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/1q/mcsr0m2x28d4ffr1ql92pmpc0000gn/T/rust_mozprofile.3tqbxa12cpRc, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=MAC, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=16.7.0, moz:processID=1200, browserName=firefox, javascriptEnabled=true, platformName=MAC}]
+Session ID: ea3c0be6-7c5c-9a46-ae8c-a8477d3c5200
+*** Element info: {Using=css selector, value=.cA-DD-browseCards}
+	at Homepage.TestCreditCards.clickButtonByXpath(TestCreditCards.java:26)
+
+clickcreditcardTag(Homepage.TestCreditCards)  Time elapsed: 10.031 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #creditCards>a
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'samis-MacBook-Pro.local', ip: 'fe80:0:0:0:1c0d:53b0:ca5d:9f39%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/1q/mcsr0m2x28d4ffr1ql92pmpc0000gn/T/rust_mozprofile.3tqbxa12cpRc, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=MAC, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=16.7.0, moz:processID=1200, browserName=firefox, javascriptEnabled=true, platformName=MAC}]
+Session ID: ea3c0be6-7c5c-9a46-ae8c-a8477d3c5200
+*** Element info: {Using=css selector, value=#creditCards>a}
+	at Homepage.TestCreditCards.clickcreditcardTag(TestCreditCards.java:9)
+
+searchByCSS(Homepage.TestCreditCards)  Time elapsed: 10.024 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #cA-cardsUseridMasked
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'samis-MacBook-Pro.local', ip: 'fe80:0:0:0:1c0d:53b0:ca5d:9f39%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/1q/mcsr0m2x28d4ffr1ql92pmpc0000gn/T/rust_mozprofile.3tqbxa12cpRc, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=MAC, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=16.7.0, moz:processID=1200, browserName=firefox, javascriptEnabled=true, platformName=MAC}]
+Session ID: ea3c0be6-7c5c-9a46-ae8c-a8477d3c5200
+*** Element info: {Using=css selector, value=#cA-cardsUseridMasked}
+	at Homepage.TestCreditCards.searchByCSS(TestCreditCards.java:14)
+
+searchByXpath(Homepage.TestCreditCards)  Time elapsed: 10.025 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='PASSWORD']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'samis-MacBook-Pro.local', ip: 'fe80:0:0:0:1c0d:53b0:ca5d:9f39%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/1q/mcsr0m2x28d4ffr1ql92pmpc0000gn/T/rust_mozprofile.3tqbxa12cpRc, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=MAC, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=16.7.0, moz:processID=1200, browserName=firefox, javascriptEnabled=true, platformName=MAC}]
+Session ID: ea3c0be6-7c5c-9a46-ae8c-a8477d3c5200
+*** Element info: {Using=xpath, value=.//*[@id='PASSWORD']}
+	at Homepage.TestCreditCards.searchByXpath(TestCreditCards.java:18)
+
