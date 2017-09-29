@@ -16,6 +16,7 @@
         <module>Ebbay</module>
         <module>Yahoo</module>
         <module>Citibank</module>
+        <module>W3School</module>
     </modules>
     <dependencyManagement>
         <dependencies>
@@ -60,18 +61,6 @@
                 <artifactId>poi</artifactId>
                 <version>3.17-beta1</version>
             </dependency>
-            <dependency>
-                <groupId>com.google.api-client</groupId>
-                <artifactId>google-api-client</artifactId>
-                <version>1.22.0</version>
-            </dependency>
-            <dependency>
-                <groupId>org.mongodb</groupId>
-                <artifactId>mongo-java-driver</artifactId>
-                <version>3.6.0-beta1</version>
-            </dependency>
-
-
         </dependencies>
     </dependencyManagement>
 

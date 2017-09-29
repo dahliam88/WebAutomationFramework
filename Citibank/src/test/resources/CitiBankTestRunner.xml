@@ -12,9 +12,9 @@
     <parameter name="url" value="http://citibank.com"/>
     <test name = "CitiBank">
         <classes>
+            <class name="Homepage.LocateATMByZipcode"/>
             <class name="Homepage.TestHomepage"/>
             <class name="Homepage.Login"/>
-            <class name="Homepage.LocateATMByZipcode"/>
             <class name="Homepage.TestCreditCards"/>
         </classes>
     </test>

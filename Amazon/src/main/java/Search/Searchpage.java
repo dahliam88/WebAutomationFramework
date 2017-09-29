@@ -9,7 +9,6 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.io.IOException;
 
-import static Base.CommonAPI.driver;
 
 public class Searchpage extends CommonAPI{
 
@@ -39,7 +38,23 @@ public class Searchpage extends CommonAPI{
        searchFor(value);
        submitsearchbutton();
    }
+     public void getDataFromExcelFileAndSearch()throws IOException, InterruptedException{
 
+        //Create instance of Excel file reader class
+        ItemsToBeSearched itemsToBeSearched = new ItemsToBeSearched();
+
+        //Page Factory class init
+        Searchpage search = PageFactory.initElements(driver, Searchpage.class);
+
+        //Read data from Excel File.
+        String[] value = itemsToBeSearched.getDataFromExcelFile();
+        //Running for each loop
+        for (int i = 1; i < value.length; i++) {
+            search.searchFor(value[i]);
+            sleepFor(2);
+            search.clearSearchInput();
+        }
+    }
 
 }
 

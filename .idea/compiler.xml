@@ -12,6 +12,7 @@
         <module name="Ebbay" />
         <module name="Facebook" />
         <module name="Generic" />
+        <module name="W3School" />
         <module name="Yahoo" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="Ebbay" target="1.8" />
       <module name="Facebook" target="1.8" />
       <module name="Generic" target="1.8" />
+      <module name="W3School" target="1.8" />
       <module name="WebAutomationFramework" target="1.8" />
       <module name="Yahoo" target="1.8" />
     </bytecodeTargetLevel>
